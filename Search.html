@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Поиск</title>
+    <style>
+        section {
+            text-align: center;
+
+        }
+
+        .container {
+            max-width: 500px;
+            margin-left: auto;
+            margin-right: auto;
+
+        }
+
+        form input {
+            float: right;
+        }
+
+        form {
+            padding: 20px;
+        }
+
+        select {
+            width: 200px;
+            float: right;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <section class="container">
+            <h1>Поиск авто:</h1>
+            <fieldset>
+                <legend>характеристики авто:</legend>
+                <br>
+                <form action="https://fom.in.ua/echo" method="get">
+                    <br>
+                    <label>
+                        <span>Тип кузова:</span>
+                        <select name="select-type">
+                            <option style="display:none" value="default" selected>выбирете кузов</option>
+                            <option value="value1">Седан. Классический кузов</option>
+                            <option value="value2">Универсал</option>
+                            <option value="value3">Хэтчбек</option>
+                            <option value="value4">Минивен</option>
+                            <option value="value5">Внедорожник</option>
+                            <option value="value6">Купе</option>
+                            <option value="value7">Кабриолет</option>
+                            <option value="value8">Пикап</option>
+
+                        </select><br><br>
+                    </label>
+                    <label>
+                        <span>Марка авто:</span>
+                        <select name="select-avto">
+                            <option style="display:none" value="default" selected>выбирете авто</option>
+                            <option value="value9">Audi</option>
+                            <option value="value10">Acura</option>
+                            <option value="value11">Aston Martin</option>
+                            <option value="value12">Bentley</option>
+                            <option value="value13">BMW</option>
+                            <option value="value14">FORD</option>
+                            <option value="value15">TOYOTA</option>
+                            <option value="value16">VOLKSWAGEN</option>
+
+                        </select><br><br>
+                    </label>
+                    <label>
+                        <span>Страна производитель:</span>
+                        <select name="select-country">
+                            <option style="display:none" value="default" selected>выбирете страну</option>
+                            <option value="value17">Германия</option>
+                            <option value="value18">США</option>
+                            <option value="value19">Украина</option>
+                            <option value="value20">Польша</option>
+                            <option value="value21">РФ</option>
+                            <option value="value22">КНДР</option>
+                            <option value="value23">Япония</option>
+                            <option value="value24">Грузия</option>
+
+                        </select><br><br>
+                    </label>
+                    <label>
+                        <span>Цена:</span>
+                        <select name="select-price">
+                            <option style="display:none" value="default" selected>выбирете цену</option>
+                            <option value="value25">1000$</option>
+                            <option value="value26">2000$</option>
+                            <option value="value27">5000$</option>
+                            <option value="value28">10000$</option>
+                            <option value="value29">15000$</option>
+                            <option value="value30">20000$</option>
+                            <option value="value31">30000$</option>
+                            <option value="value32">100000+$</option>
+
+                        </select><br><br>
+                    </label>
+                    <label>
+                        <span>Год выпуска:</span>
+                        <select name="select-year">
+                            <option style="display:none" value="default" selected>выбирете год</option>
+                            <option value="value33">2000</option>
+                            <option value="value34">2005</option>
+                            <option value="value35">2010</option>
+                            <option value="value36">2015</option>
+                            <option value="value37">2020</option>
+                            <option value="value38">2022</option>
+                        </select><br><br>
+                    </label>
+                    <label>
+                        <span>Состояние:</span><br><br>
+                        <input type="radio">
+                        Битая<br><br>
+                    </label>
+                    <label>
+                        <input type="radio">
+                        В кредит<br><br>
+                    </label>
+                    <label>
+                        <input type="radio">
+                        Нерастаможенная<br><br>
+                    </label>
+                    <label>
+                        <input type="radio">
+                        Растаможенная<br><br>
+                    </label>
+                    <br>
+                    <label>
+                        <span>Тип топлива:</span>
+                        <select name="select-fuel">
+                            <option style="display:none" value="default" selected>выбирете тип</option>
+                            <option value="value42">дт</option>
+                            <option value="value43">95</option>
+                            <option value="value44">на святой воде</option>
+                        </select><br><br>
+                    </label>
+                    <label>
+                        <span>Тип коробки передач:</span>
+                        <select name="select-box">
+                            <option style="display:none" value="default" selected>выбирете тип</option>
+                            <option value="value44">механика</option>
+                            <option value="value45">автомат</option>
+                            <option value="value46">полу-автомат</option>
+                        </select><br><br>
+                    </label>
+                    <label>
+                        <span>Цвет:</span>
+                        <input type="color" name="Цвет:"><br><br>
+                    </label>
+                    <label>
+                        <span>Комфорт:</span>
+                        <select name="select-comfort">
+                            <option style="display:none" value="default" selected>выбирете тип</option>
+                            <option value="value47">средняя комплектация</option>
+                            <option value="value48">полная комплектация</option>
+                            <option value="value49">премиум </option>
+                        </select><br><br>
+                    </label>
+                    <input type="submit" value="Поиск">
+                </form>
+            </fieldset>
+
+        </section>
+    </main>
+
+
+</body>
+
+</html>
