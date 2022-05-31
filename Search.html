@@ -21,6 +21,7 @@
 
         form input {
             float: right;
+            margin: 0 0 0 20px;
         }
 
         form {
@@ -30,6 +31,11 @@
         select {
             width: 200px;
             float: right;
+        }
+
+        .property {
+            text-align: right;
+            margin-bottom: 15px;
         }
     </style>
 </head>
@@ -116,23 +122,26 @@
                         </select><br><br>
                     </label>
                     <label>
-                        <span>Состояние:</span><br><br>
-                        <input type="radio">
-                        Битая<br><br>
+                        <span>Состояние:</span>
                     </label>
-                    <label>
-                        <input type="radio">
-                        В кредит<br><br>
-                    </label>
-                    <label>
-                        <input type="radio">
-                        Нерастаможенная<br><br>
-                    </label>
-                    <label>
-                        <input type="radio">
-                        Растаможенная<br><br>
-                    </label>
-                    <br>
+                    <div class="property">
+
+                        <div>
+                            <input type="checkbox" id="beaten" name="beaten">
+                            <label for="beaten">Битая</label>
+                        </div>
+
+                        <div>
+                            <input type="checkbox" id="uncleared" name="uncleared">
+                            <label for="uncleared">Нерастаможенная</label>
+                        </div>
+                        <div>
+                            <input type="checkbox" id="on_credit" name="on_credit">
+                            <label for="on_credit">В кредите</label>
+                        </div>
+
+
+                    </div>
                     <label>
                         <span>Тип топлива:</span>
                         <select name="select-fuel">
@@ -166,6 +175,7 @@
                     </label>
                     <input type="submit" value="Поиск">
                 </form>
+
             </fieldset>
 
         </section>
