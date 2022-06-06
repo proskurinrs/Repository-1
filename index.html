@@ -5,42 +5,109 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Привет</title>
+    <title>HomeWork№5</title>
+    <link rel="stylesheet" href="style.css">
+
 </head>
-<style>
-    section {
-        text-align: center;
-    }
-</style>
 
 <body>
-    <header>
 
-    </header>
-    <main>
-        <nav>
-            <ul>
-                <li>
-                    <a href="gallery.html">фото
-                    </a>
-                </li>
-            </ul>
-        </nav>
-        <section>
-            <h1>ГЛАВНАЯ СТРАНИЦА</h1>
-            <img src="../Lesson_2/images/Liverpool-NFT.jpg" alt="фкл">
-            <div>
-                <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis hic mollitia qui quidem at,
-                    nostrum provident earum doloribus voluptate ipsum, minus laborum numquam alias sit maxime. Unde
-                    iste reprehenderit in.
-                </p>
-            </div>
-        </section>
-    </main>
-    <footer>
+    <section>
+        <h2>
+            Основные виды
+            селекторов:
+        </h2>
+        <p>Основных видов селекторов всего несколько:</p>
+        <ul>
+            <li>
+                <code>*</code> – любые элементы.
+            </li>
+            <li>
+                <code>div</code> – элементы с таким тегом.
+            </li>
+            <li>
+                <code>#id</code> – элемент с данным.
+            </li>
+            <li>
+                <code>.class</code> – элементы с таким классом.
+            </li>
+            <li>
+                <code>[name="value"]</code> – селекторы на атрибут.
+            </li>
+            <li>
+                <code>:visited</code> – «псевдоклассы», остальные разные условия на элемент.
+            </li>
+        </ul>
 
-    </footer>
+    </section>
+    <section>
+        <h2>
+            <p>10 любых элементов с текстом на странице и каждому из них назначаю разные цвета с помощью разных
+                селекторов:
+            </p>
+        </h2>
+        <ol>
+            <li>
+                <div>по тегу</div>
+            </li>
+            <li>
+                <h3 id="namber4">по "id"</h3>
+            </li>
+            <li>
+                <h3 class="namber1">
+                    по классу
+                </h3>
+            </li>
+            <li>
+                <h3 class="namber2 namber3">
+                    по нескольким классам
+                </h3>
+            </li>
+            <li>
+                <h3 class="namber5">по атрибутам
+                </h3>
+            </li>
+            <li>
+                <h3> по вложенности </h3>
+                <ul class="list">
+                    <li class="item"> <a href="#" class="link"></a>пример1</li>
+                    <li class="item"> <a href="#" class="link"></a>пример2</li>
+                    <li class="item"> <a href="#" class="link"></a>пример3</li>
+                    <li class="item"> <a href="#" class="link"></a>пример4</li>
+                </ul>
+            </li>
+            <li>
+                <h3>псевдоклассы</h3>
+                <div></div>
+            </li>
+            <li>
+                <h4>
+                    <p>дочерние</p>
+                </h4>
+
+            </li>
+            <li>
+                контекстные <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum dignissimos dolorem
+                    quia! Libero error laudantium vitae.<span>Libero qui ex minima expedita</span> vitae nesciunt
+                    repudiandae
+                    quibusdam natus quidem, vero id et? Libero fuga assumenda excepturi quae tempora ipsa, similique
+                    nostrum ipsum quasi quam blanditiis. <span>Sapiente similique quod, </span> explicabo accusamus
+                    aspernatur
+                    officiis!</p>
+            </li>
+            <li>Сестринский
+                <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, consectetur.</h5>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, consectetur.</h5>
+                <p>Lorem ipsum dolor sit amet.</p>
+                <p>Lorem ipsum dolor sit amet.</p>
+
+            </li>
+        </ol>
+
+    </section>
+
 </body>
 
 </html>
