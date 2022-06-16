@@ -1,0 +1,193 @@
+*, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.7;
+    font-style: normal;
+}
+
+*, ::before, ::after{
+    margin: 0;
+    padding: 0;
+   
+}
+img { max-width: 100%; 
+}
+.container {
+    width: 100%;
+    max-width: 1142px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+a{
+    text-decoration: none;
+    color: #000000;
+    padding: 0 35px 0 0;
+}
+
+ul{
+    padding-top: 50px;
+}
+.nav-home a {
+    color: blue;
+}
+
+h1 {
+    font-size: 48px;
+    line-height: 79px;
+    margin-bottom: 60px;
+    font-weight: 500;
+    color: #000000;
+}
+h2 {
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 38px;
+    text-align: center;
+    color: #000000;
+    padding-bottom: 50px;
+}
+h3 {
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+
+/* БЛОК 1 */
+.block1 {
+    height: 500px;
+    background-color: #EEEFF1;
+}
+
+li {
+    display: inline-block;
+}
+/*  кнопка */
+.button { 
+    background-color: #34547A;
+    width: 225px;
+    height: 65px;
+    border: none;
+    font: inherit;
+    color: #FFFFFF; 
+    font-size: 16px;
+}
+
+/* БЛОК 2  ОБО МНЕ*/
+.block2 {
+    height: 370px;
+    background-color: #ffffff;
+}
+
+
+/* БЛОК 3 */
+.block3 {
+    height: 250px;
+    background-color: #34547A;
+    text-align: center;
+    margin-top: 100px
+}
+
+.icon {
+    color: #ffffff;
+    max-width: 100%;
+    display: inline-block;
+    padding-right: 50px;
+}
+
+/* блок картинка */
+.block-img { 
+    float: none;
+    max-width: 50px;
+    margin-bottom: 0;
+    display: inline-block;
+    padding-right: 10px;
+}
+
+/* блок текст */
+.block-text {
+    display: inline-block;
+    color: #FFFFFF;
+    text-align: left;
+    vertical-align: top;
+}
+
+
+h3 {
+    color: #FFFFFF;
+    font-size: 21px;
+    line-height: 25px;
+    font-weight: 500;
+}
+h3+p {
+    color: #FFFFFF;
+    line-height: 26px;
+   
+}
+
+/* БЛОК 4 кино */
+.block4 {
+    height: 1004px;
+    background-color: #EEEFF1;
+
+}
+
+.tittle {
+    text-align: center;
+    padding-top: 100px;
+    
+}
+.text1 {
+    max-width: 540px;
+    padding-bottom: 65px;
+}
+.text2 {
+    max-width: 540px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.text3 {
+    padding: 50px;
+    max-width: 540px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.video {
+ margin: 0 auto;
+ display: block;
+ text-align: center;
+  }
+
+
+/* ФУТР */
+.block5 {
+    height: 151px;
+    background-color: #34547A;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.line-height {    
+    line-height: 25px;
+}
+
+.footer-font {
+    font-size: 13px;
+    line-height: 21px;
+    margin-top: 20px;
+}
+
+.block3 .container{
+    padding-top:100px;
+}
+
