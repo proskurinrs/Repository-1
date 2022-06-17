@@ -24,17 +24,22 @@ html {
     margin-right: auto;
     padding-left: 1rem;
     padding-right: 1rem;
+    
 }
 /*Многоуровневое меню  */
 .menu {
     display: flex;
 }
+.menu > .collor  {
+    background: #26262a;
+}
 .menu li {
     width: 200px;
     list-style: none;
-    background: #181819;
+    background: #2323a7;
     position: relative;
 }
+
 .menu a {color: #fff;
     text-decoration: none;
     display: block;
@@ -44,6 +49,7 @@ html {
     line-height: 40px;
     transition: all .5s;
 }
+
 .menu a:hover {
     background: #417ffc;
 }
