@@ -19,10 +19,26 @@ html {
 }
 .container {
     width: 100%;
-    max-width: 900px;
+    max-width: 1110px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 1rem;
     padding-right: 1rem;
 }
 /*верстать*/
+.up-level {
+    background: #fff;
+    border-bottom: 1px solid;
+    height: 85px;
+   
+
+}
+.LOGO { 
+    margin-right: 30px;
+    width: 155px;
+    height: 55px;
+   
+   
+}
+
+/* шапка */
