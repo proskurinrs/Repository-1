@@ -19,7 +19,7 @@ html {
 }
 .container {
     width: 100%;
-    max-width: 1440px;
+    max-width: calc(1150px + 2rem);
     margin-left: auto;
     margin-right: auto;
     padding-left: 1rem;
@@ -47,6 +47,9 @@ html {
 }
 .justify-center {
     justify-content: center;
+}
+.justify-end {
+    justify-content: end;
 }
 .justify-between {
     justify-content: space-between;
@@ -86,13 +89,54 @@ html {
     
 }
 /* ---------------------------школьная доска--------------------------------- */
-.level-2 {
-    background-color: #E3EBF1;
-    width: 1150px;
-    height: 486px;
-    margin-top: 60px;
-    border-radius: 10px;
-   
-    
+.first-screen {
+    padding-top: 60px;
 
+
+
+}
+.first-screen .card {
+    background-color: #E3EBF1;
+    border-radius: 10px;
+    padding: 50px;
+    gap: 50px;   
+     
+}
+.first-screen .description {
+margin:25px 0;
+
+}
+.text-green {
+    
+    color: #10843F;
+    font-size: 18px;
+    line-height: 25px;
+}
+.text-Easy {
+   
+    font-size: 47px;
+    line-height: 52px;
+    margin-top: 8px;
+}
+.description {
+    font-size: 18px;
+    line-height: 24px;
+}
+.btn {
+    border: none;
+    display: inline-block;
+    color: #FFFFFF;
+}
+.btn-green {
+    background-color: #17A550;
+    padding: 15px;
+    font-size: 15px;
+    border-radius: 5px;
+}
+.btn-green:hover {
+    background-color: #FFC728;
+}
+/* --------------------------------карточки------------------------------------------ */
+.second-screen {
+    margin: 77px 33px;
 }
