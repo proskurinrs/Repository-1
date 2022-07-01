@@ -137,6 +137,13 @@ margin:25px 0;
     background-color: #FFC728;
 }
 /* --------------------------------карточки------------------------------------------ */
-.second-screen {
-    margin: 77px 33px;
+.pictures-content {
+    gap: 40px;
+}
+.second-screen .blog {
+    margin: 77px 0 33px 0;
+    font-size: 38px;
+}
+.text-how {
+    margin: 9px 0 13px 0;
 }
