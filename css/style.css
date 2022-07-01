@@ -19,26 +19,80 @@ html {
 }
 .container {
     width: 100%;
-    max-width: 1110px;
+    max-width: 1440px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 1rem;
     padding-right: 1rem;
+    
 }
-/*верстать*/
-.up-level {
-    background: #fff;
-    border-bottom: 1px solid;
-    height: 85px;
-   
+/* ------------------------header----------------------------- */
+.flex {
+    display: flex;
+}
+.flex-col {
+    flex-direction: column;
+}
+.wrap {
+    flex-wrap: wrap;
+}
+.text-center {
+    text-align: center;
+}
+.flex-1 {
+    flex: 1;
+}
+.items-center {
+    align-items: center;
+}
+.justify-center {
+    justify-content: center;
+}
+.justify-between {
+    justify-content: space-between;
+}
+.min-h-screen {
+    min-height: 100vh;
+}
 
+/* ----------------------------------------------------------- */
+.level-1 {
+  height: 85px;
+  background: #FFFFFF;
+  box-shadow: 0px 1px 8px rgba(83, 109, 122, 0.29);
+  border-radius: 0px;
+  
 }
-.LOGO { 
-    margin-right: 30px;
+.logo {
+    margin-right: 35px;
     width: 155px;
     height: 55px;
-   
-   
-}
+    
 
-/* шапка */
+}
+.text-link { margin-right: 35px;
+
+}
+.text-link :not(.menu-sing){
+    margin-right: 35px;
+
+}
+.menu-sing { margin-left: 100px;
+
+}
+.nav-icon { 
+    width: 19px;
+    height: 19px;
+    
+}
+/* ---------------------------школьная доска--------------------------------- */
+.level-2 {
+    background-color: #E3EBF1;
+    width: 1150px;
+    height: 486px;
+    margin-top: 60px;
+    border-radius: 10px;
+   
+    
+
+}
