@@ -147,3 +147,33 @@ margin:25px 0;
 .text-how {
     margin: 9px 0 13px 0;
 }
+.view-all {
+    line-height: 20px;
+    margin-top: 74px;
+}
+
+.view-all img {
+    margin-right: 4px;
+}
+.three-pictures {
+    gap: 20px;
+}
+.card img { 
+    margin-right: 15px;
+}
+/* ------------------------------------кнопка с фоном------------------------------------------ */
+.screwdriver {
+    background-image: url(../images/Viewourlistof.png);
+    border-radius: 10px;
+    margin: 100px 0 97px 0;
+}
+.screwdriver img {
+    padding: 31px 12px 31px 31px;
+    font-size: 28px;
+}
+.text-screwdriver {
+    padding: 39px 470px 37px 12px;
+}
+.screwdriver .btn-green {
+    line-height: 22px;    
+}
