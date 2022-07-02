@@ -177,3 +177,14 @@ margin:25px 0;
 .screwdriver .btn-green {
     line-height: 22px;    
 }
+/* -- три карточки и конпка как три танкиста и собака -- */
+.text-Reviews {
+    margin-bottom: 33px;
+}
+.three-cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    line-height: 20px;
+}
