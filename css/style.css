@@ -73,7 +73,8 @@ html {
     
 
 }
-.text-link { margin-right: 35px;
+.text-link {
+     margin-right: 35px;
 
 }
 .text-link :not(.menu-sing){
@@ -158,9 +159,7 @@ margin:25px 0;
 .three-pictures {
     gap: 20px;
 }
-.card img { 
-    margin-right: 15px;
-}
+
 /* ------------------------------------кнопка с фоном------------------------------------------ */
 .screwdriver {
     background-image: url(../images/Viewourlistof.png);
@@ -187,4 +186,108 @@ margin:25px 0;
     justify-content: center;
     gap: 40px;
     line-height: 20px;
+    margin-bottom: 40px;
 }
+.btn-2 {
+    background: rgba(29, 47, 56, 0.8);
+    border-radius: 3px;
+    font-size: 12px;
+    padding: 5px 10px; 
+    color: #F7F9FA;
+  
+}
+.cards {
+    position: relative;
+    background: #F7F9FA;
+    border-radius: 10px;
+}
+
+.cards .btn-2  {
+    position: absolute;
+    top: 15px; left: 15px;  
+}
+.btn-2:hover {
+    background: rgba(248, 185, 11, 0.925);
+    color: #F7F9FA;
+}
+
+.text-cards {
+    padding: 24px 39px 13px 25px;
+}
+.text-cards-p {
+    padding: 0 33px 39px 25px;
+}
+.view-all-2  {
+    line-height: 20px;
+    margin: 40px 0 100px 0;
+}
+.view-all-2 img {
+    margin-right: 4px;
+}
+/*------------------------- конвертик и мыло ---------------------------  */
+.fourth-screen {
+    margin-bottom: 100px;
+
+}
+.fourth-screen .menu-mail {
+    background-image: url(../images/Viewourlistof.png);
+    border-radius: 10px;
+    padding: 50px;
+    gap: 50px;   
+     
+}
+.fourth-screen .description {
+margin:25px 0;
+}
+.convert-2 {
+    max-width: 60px;
+    max-height: 60px;
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-------------------------- футер----------------------------- */
+.footer {
+    background: #F7F9FA;
+    border-radius: 0px;
+}
+.footer .container {
+    padding: 20px 145px 20px 145px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
