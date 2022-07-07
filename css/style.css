@@ -159,6 +159,9 @@ margin:25px 0;
 .three-pictures {
     gap: 20px;
 }
+.card {
+    gap: 15px;
+}
 
 /* ------------------------------------кнопка с фоном------------------------------------------ */
 .screwdriver {
@@ -176,7 +179,7 @@ margin:25px 0;
 .screwdriver .btn-green {
     line-height: 22px;    
 }
-/* -- три карточки и конпка как три танкиста и собака -- */
+/* -- три карточки и кнопка как три танкиста и собака -- */
 .text-Reviews {
     margin-bottom: 33px;
 }
@@ -225,6 +228,10 @@ margin:25px 0;
     margin-right: 4px;
 }
 /*------------------------- конвертик и мыло ---------------------------  */
+.menu-mail {
+    display: flex;
+    align-items: center;
+}
 .fourth-screen {
     margin-bottom: 100px;
 
@@ -239,13 +246,113 @@ margin:25px 0;
 .fourth-screen .description {
 margin:25px 0;
 }
+.content-mail{
+    flex-wrap: wrap;
+}
+.news {
+    display: flex;
+    padding-bottom: 40px;
+}
 .convert-2 {
+    display: flex;
+}
+.news .convert-2 {
     max-width: 60px;
     max-height: 60px;
     background-color: #FFFFFF;
     border-radius: 50%;
     padding: 10px;
 }
+.text-mail {
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    color: #1D2F38;
+    font-size: 30px;
+}
+
+.maile { 
+    line-height: 20px;
+}
+.text-newsletter {
+    font-size: 18px;
+    padding-bottom: 24px;
+    color: #1D2F38;
+}
+.your .your-email {
+    background: #FFFFFF;
+    border: 1px solid #AABCC5;
+    border-radius: 5px;
+    color: #536D7A;
+    width: 100%;
+    font-size: 12px;  
+    margin-top: 24px;
+    margin-bottom: 31px;
+    padding: 15px 16px;
+}
+
+.btn-yellow {
+    background-color: #FFC728;
+    padding: 15px;
+    font-size: 15px;
+    border-radius: 5px;
+    color: #000;
+}
+.btn-yellow:hover {
+    background: #17A550;
+    
+}
+.privacy-policy {
+    font-size: 12px;
+    color: #536D7A;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
