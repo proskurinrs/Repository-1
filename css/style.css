@@ -368,18 +368,87 @@ margin:25px 0;
 
 
 
-/*-------------------------- футер----------------------------- */
-.footer {
-    background: #F7F9FA;
-    border-radius: 0px;
+
+
+/* ..................social-block................... */
+.social-block,
+.picture-block,
+.nav-block {
+    width: 100%;
 }
-.footer .container {
-    padding: 20px 145px 20px 145px;
+.social-block .social-links {
+    margin-top: 11px;
+    margin-bottom: 19px;
 }
 
+/* ..................spicture-block................... */
+.title-footer {
+    font-size: 30px;
+    line-height: 35px;
+    color: #333333
+}
+.footer .picture-block .title-footer {
+    margin-bottom: 12px;
+}
+.wrapper-card {
+    gap: 20px;
+}
+.footer .picture-block .card {
+    gap: 9px;
+}
+.footer .picture-block .wrapper-card .card img {
+    width: 139px;
+    height: 100px;
+    border-radius: 7px;   
+}
+.footer .picture-block .discription {
+    line-height: 18px;
+}
 
+/* ..................nav-block................... */
+.footer .nav-block .title-footer {
+    margin-bottom: 13px;
+}
 
+.footer .nav-block input {
+    background: #FFFFFF;
+    border: 1px solid #AABCC5;
+    border-radius: 5px 0 0 5px;
+}
+.footer .nav-block .text-form {
+    font-size: 12px;
+    color: #FFFFFF;
+    padding: 14px 20px;
+    background-color: #768F9C;
+    border-radius: 0 5px 5px 0;
+}
+.footer .nav-block .text-form:hover {
+    background-color: #9acd32;
+    color: #1D2F38;
+}
 
+.footer .nav-block .nav-group ul{
+    list-style: none;
+    margin-top: 20px;
+    gap: 7px;
+}
+.footer .nav-block .nav-group .line {
+    margin-top: 27px;
+    border-bottom: 1px solid #536D7A;
+}
+.footer .nav-block .nav-group .last-text {
+    margin-top: 20px;
+}
+
+/* ..................copyright................... */
+.copyright {
+    border-top: 1px solid #536D7A;
+    font-size: 12px;
+    padding-top: 22px;
+}
+.left-part {
+    gap: 10px;
+}
 
 
 
