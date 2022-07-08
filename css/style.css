@@ -19,10 +19,10 @@ html {
 }
 .container {
     width: 100%;
-    max-width: 900px;
+    max-width: calc(1150px + 2rem);
     margin-left: auto;
     margin-right: auto;
     padding-left: 1rem;
     padding-right: 1rem;
+    
 }
-/*верстать*/
